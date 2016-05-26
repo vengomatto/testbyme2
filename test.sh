@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo touch /tmp/pippo.test
-sudo ls -l /root >> /tmp/pippo.test
+sudo touch pippo.test
+sudo ls -l /root >> pippo.test
