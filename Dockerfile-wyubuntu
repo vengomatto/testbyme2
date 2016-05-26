@@ -1,0 +1,7 @@
+FROM ubuntu:14.04
+ 
+USER root
+RUN  echo "jenkins ALL=NOPASSWD: ALL" >> /etc/sudoers
+
+USER jenkins
+
